@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LBCOnlineShoppingCart.Application\LBCOnlineShoppingCart.Application.csproj" />
+    <ProjectReference Include="..\LBCOnlineShoppingCart.Infra.Data\LBCOnlineShoppingCart.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

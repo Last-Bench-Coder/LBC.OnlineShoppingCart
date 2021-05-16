@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LBCOnlineShoppingCart.Application", "LBCOnlineShoppingCart.Application", "{C32FFFF0-356C-4613-BFC7-0A4C9368ADFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LBCOnlineShoppingCart.Domain", "LBCOnlineShoppingCart.Domain", "{283C58B1-BA78-4471-A95C-20D511818999}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LBCOnlineShoppingCart.Infrastructure.Data", "LBCOnlineShoppingCart.Infrastructure.Data", "{A186F6F0-4326-48B9-BEB5-37E99F20F86A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LBCOnlineShoppingCart.UI", "LBCOnlineShoppingCart.UI", "{82E280D0-2C17-4F94-B11F-C2D82C58AE5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LBCOnlineShoppingCart.WebUI", "LBCOnlineShoppingCart.WebUI\LBCOnlineShoppingCart.WebUI.csproj", "{4B4C3721-A104-4F39-A2E5-EE4E50E7E7F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LBCOnlineShoppingCart.Domain", "LBCOnlineShoppingCart.Domain\LBCOnlineShoppingCart.Domain.csproj", "{E926DEC6-0ECE-4302-973E-F002E2930D5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LBCOnlineShoppingCart.Infra.Data", "LBCOnlineShoppingCart.Infra.Data\LBCOnlineShoppingCart.Infra.Data.csproj", "{A64002E0-91A7-4B05-926E-625DECCBF9B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LBCOnlineShoppingCart.Application", "LBCOnlineShoppingCart.Application\LBCOnlineShoppingCart.Application.csproj", "{A0EF3F82-1635-4DE2-A999-980DC19251B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LBCOnlineShoppingCart.Infrastructure.InversionControl", "LBCOnlineShoppingCart.Infrastructure.InversionControl", "{08CDA1E4-73E7-49FF-886C-3E5D54DD4DD6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LBCOnlineShoppingCart.Infra.InversionControl", "LBCOnlineShoppingCart.Infra.InversionControl\LBCOnlineShoppingCart.Infra.InversionControl.csproj", "{A38B2F5C-9B05-406F-869D-F7336D993A64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LBCOnlineShoppingCart.Testing", "LBCOnlineShoppingCart.Testing", "{0F3D3FA5-34C8-44CD-A014-85070AF11A1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LBCOnlineShoppingCart.Functionality.Testing", "LBCOnlineShoppingCart.Functionality.Testing\LBCOnlineShoppingCart.Functionality.Testing.csproj", "{B783DD0C-E703-401B-A3B6-3B2D42F6FE99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B4C3721-A104-4F39-A2E5-EE4E50E7E7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B4C3721-A104-4F39-A2E5-EE4E50E7E7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B4C3721-A104-4F39-A2E5-EE4E50E7E7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B4C3721-A104-4F39-A2E5-EE4E50E7E7F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E926DEC6-0ECE-4302-973E-F002E2930D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E926DEC6-0ECE-4302-973E-F002E2930D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E926DEC6-0ECE-4302-973E-F002E2930D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E926DEC6-0ECE-4302-973E-F002E2930D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A64002E0-91A7-4B05-926E-625DECCBF9B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A64002E0-91A7-4B05-926E-625DECCBF9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A64002E0-91A7-4B05-926E-625DECCBF9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A64002E0-91A7-4B05-926E-625DECCBF9B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0EF3F82-1635-4DE2-A999-980DC19251B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0EF3F82-1635-4DE2-A999-980DC19251B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0EF3F82-1635-4DE2-A999-980DC19251B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0EF3F82-1635-4DE2-A999-980DC19251B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A38B2F5C-9B05-406F-869D-F7336D993A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A38B2F5C-9B05-406F-869D-F7336D993A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A38B2F5C-9B05-406F-869D-F7336D993A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A38B2F5C-9B05-406F-869D-F7336D993A64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B783DD0C-E703-401B-A3B6-3B2D42F6FE99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B783DD0C-E703-401B-A3B6-3B2D42F6FE99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B783DD0C-E703-401B-A3B6-3B2D42F6FE99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B783DD0C-E703-401B-A3B6-3B2D42F6FE99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B4C3721-A104-4F39-A2E5-EE4E50E7E7F8} = {82E280D0-2C17-4F94-B11F-C2D82C58AE5D}
+		{E926DEC6-0ECE-4302-973E-F002E2930D5D} = {283C58B1-BA78-4471-A95C-20D511818999}
+		{A64002E0-91A7-4B05-926E-625DECCBF9B4} = {A186F6F0-4326-48B9-BEB5-37E99F20F86A}
+		{A0EF3F82-1635-4DE2-A999-980DC19251B4} = {C32FFFF0-356C-4613-BFC7-0A4C9368ADFF}
+		{A38B2F5C-9B05-406F-869D-F7336D993A64} = {08CDA1E4-73E7-49FF-886C-3E5D54DD4DD6}
+		{B783DD0C-E703-401B-A3B6-3B2D42F6FE99} = {0F3D3FA5-34C8-44CD-A014-85070AF11A1D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF7059A6-A99D-4142-8260-5AA51DEEDA1C}
+	EndGlobalSection
+EndGlobal

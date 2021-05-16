@@ -1,0 +1,39 @@
+﻿@model LBCOnlineShoppingCart.WebUI.Models.LoginModel
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_AccountLayout.cshtml";
+}
+
+<h1 class="auth-title">Log in.</h1>
+<p class="auth-subtitle mb-5">Log in with your email id and password.</p>
+
+@if (!string.IsNullOrEmpty(ViewBag.SuccessErrorMessage))
+{
+
+    <div class="alert alert-danger alert-dismissible show fade">
+        @ViewBag.SuccessErrorMessage
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<form asp-action="index">
+    <div class="form-group position-relative has-icon-left mb-4">
+        <input asp-for="EmailId" class="form-control form-control-xl" placeholder="User Id" />
+        <div class="form-control-icon">
+            <i class="bi bi-person"></i>
+        </div>
+        <span asp-validation-for="EmailId" class="text-danger"></span>
+    </div>
+    <div class="form-group position-relative has-icon-left mb-4">
+        <input asp-for="Password" class="form-control form-control-xl" placeholder="Password" type="Password" />
+        <div class="form-control-icon">
+            <i class="bi bi-shield-lock"></i>
+        </div>
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <button class="btn btn-primary btn-block btn-lg shadow-lg mt-5" type="submit">Log in</button>
+</form>
+<div class="text-center mt-5 text-lg fs-4">
+    <p><a class="font-bold" href="auth-forgot-password.html">Forgot password?</a>.</p>
+</div>

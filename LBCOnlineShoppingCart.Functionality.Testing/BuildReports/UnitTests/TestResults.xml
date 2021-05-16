@@ -1,0 +1,47 @@
+<assemblies timestamp="05/16/2021 14:10:49">
+  <assembly name="D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Functionality.Testing\bin\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Functionality.Testing.dll" run-date="2021-05-16" run-time="14:10:49" total="12" passed="12" failed="0" skipped="0" time="2.017" errors="0">
+    <errors />
+    <collection total="4" passed="4" failed="0" skipped="0" name="Test collection for LBCOnlineShoppingCart.Functionality.Testing.AdminTest" time="0.194">
+      <test name="LBCOnlineShoppingCart.Functionality.Testing.AdminTest.CanUpdateAdmin" type="LBCOnlineShoppingCart.Functionality.Testing.AdminTest" method="CanUpdateAdmin" time="0.1888845" result="Pass">
+        <traits />
+      </test>
+      <test name="LBCOnlineShoppingCart.Functionality.Testing.AdminTest.CanReturnAllAdmin" type="LBCOnlineShoppingCart.Functionality.Testing.AdminTest" method="CanReturnAllAdmin" time="0.0017802" result="Pass">
+        <traits />
+      </test>
+      <test name="LBCOnlineShoppingCart.Functionality.Testing.AdminTest.CanReturnAdminById" type="LBCOnlineShoppingCart.Functionality.Testing.AdminTest" method="CanReturnAdminById" time="0.0014414" result="Pass">
+        <traits />
+      </test>
+      <test name="LBCOnlineShoppingCart.Functionality.Testing.AdminTest.CanInsertAdmin" type="LBCOnlineShoppingCart.Functionality.Testing.AdminTest" method="CanInsertAdmin" time="0.0019176" result="Pass">
+        <traits />
+      </test>
+    </collection>
+    <collection total="4" passed="4" failed="0" skipped="0" name="Test collection for LBCOnlineShoppingCart.Functionality.Testing.RoleTest" time="0.185">
+      <test name="LBCOnlineShoppingCart.Functionality.Testing.RoleTest.CanInsertRole" type="LBCOnlineShoppingCart.Functionality.Testing.RoleTest" method="CanInsertRole" time="0.1800743" result="Pass">
+        <traits />
+      </test>
+      <test name="LBCOnlineShoppingCart.Functionality.Testing.RoleTest.CanUpdateRole" type="LBCOnlineShoppingCart.Functionality.Testing.RoleTest" method="CanUpdateRole" time="0.0029182" result="Pass">
+        <traits />
+      </test>
+      <test name="LBCOnlineShoppingCart.Functionality.Testing.RoleTest.CanReturnRoleById" type="LBCOnlineShoppingCart.Functionality.Testing.RoleTest" method="CanReturnRoleById" time="0.0010594" result="Pass">
+        <traits />
+      </test>
+      <test name="LBCOnlineShoppingCart.Functionality.Testing.RoleTest.CanReturnAllRole" type="LBCOnlineShoppingCart.Functionality.Testing.RoleTest" method="CanReturnAllRole" time="0.0010169" result="Pass">
+        <traits />
+      </test>
+    </collection>
+    <collection total="4" passed="4" failed="0" skipped="0" name="Test collection for LBCOnlineShoppingCart.Functionality.Testing.StatusTest" time="0.190">
+      <test name="LBCOnlineShoppingCart.Functionality.Testing.StatusTest.CanInsertStatus" type="LBCOnlineShoppingCart.Functionality.Testing.StatusTest" method="CanInsertStatus" time="0.1855739" result="Pass">
+        <traits />
+      </test>
+      <test name="LBCOnlineShoppingCart.Functionality.Testing.StatusTest.CanUpdateStatus" type="LBCOnlineShoppingCart.Functionality.Testing.StatusTest" method="CanUpdateStatus" time="0.0025975" result="Pass">
+        <traits />
+      </test>
+      <test name="LBCOnlineShoppingCart.Functionality.Testing.StatusTest.CanReturnAllStatus" type="LBCOnlineShoppingCart.Functionality.Testing.StatusTest" method="CanReturnAllStatus" time="0.0010389" result="Pass">
+        <traits />
+      </test>
+      <test name="LBCOnlineShoppingCart.Functionality.Testing.StatusTest.CanReturnStatusById" type="LBCOnlineShoppingCart.Functionality.Testing.StatusTest" method="CanReturnStatusById" time="0.0009968" result="Pass">
+        <traits />
+      </test>
+    </collection>
+  </assembly>
+</assemblies>

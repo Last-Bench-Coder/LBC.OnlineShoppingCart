@@ -1,0 +1,110 @@
+﻿@model LBCOnlineShoppingCart.WebUI.Models.StatusModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-heading">
+    <div class="page-title">
+        <div class="row">
+            <div class="col-12 col-md-6 order-md-1 order-last">
+                <h3>@ViewBag.PageHeading</h3>
+                <p class="text-subtitle text-muted">@ViewBag.PageSmallDesc</p>
+            </div>
+            <div class="col-12 col-md-6 order-md-2 order-first">
+                <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a asp-controller="home" asp-action="index">Dashboard</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            @ViewBag.PageHeading
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (!string.IsNullOrEmpty(ViewBag.SuccessErrorMessage) && !string.IsNullOrEmpty(ViewBag.Error))
+{
+    if (ViewBag.Error == "No")
+    {
+        <div class="alert alert-success alert-dismissible show fade">
+            @ViewBag.SuccessErrorMessage
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-danger alert-dismissible show fade">
+            @ViewBag.SuccessErrorMessage
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+}
+
+<section id="multiple-column-form">
+    <div class="row match-height">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-body">
+                        <form class="form" asp-action="edit">
+                            <div class="row">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="col-md-3 col-12">
+                                    <div class="form-group">
+                                        <label asp-for="Id" class="control-label"></label>
+                                        <input asp-for="Id" class="form-control" readonly />
+                                        <span asp-validation-for="Id" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-12">
+                                    <div class="form-group">
+                                        <label asp-for="StatusFor" class="control-label"></label>
+                                        <input asp-for="StatusFor" class="form-control" />
+                                        <span asp-validation-for="StatusFor" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-12">
+                                    <div class="form-group">
+                                        <label asp-for="Title" class="control-label"></label>
+                                        <input asp-for="Title" class="form-control" />
+                                        <span asp-validation-for="Title" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-12">
+                                    <div class="form-group">
+                                        <label asp-for="IsActive" class="control-label"></label>
+                                        <select asp-for="IsActive" class="form-control" asp-items="Html.GetEnumSelectList<LBCOnlineShoppingCart.Domain.Enums.eStatus>()">
+                                            <option value="">Select...</option>
+                                        </select>
+                                        <span asp-validation-for="IsActive" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-12">
+                                    <div class="form-group">
+                                        <label asp-for="Description" class="control-label"></label>
+                                        <textarea asp-for="Description" class="form-control"></textarea>
+                                        <span asp-validation-for="Description" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-12 d-flex justify-content-end">
+                                    <button type="submit"
+                                            class="btn btn-primary me-1 mb-1">
+                                        Submit
+                                    </button>
+                                    <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger" style="display:none;">Delete</a>
+                                    <a asp-action="index"
+                                       class="btn btn-light-secondary me-1 mb-1">
+                                        Go Back
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

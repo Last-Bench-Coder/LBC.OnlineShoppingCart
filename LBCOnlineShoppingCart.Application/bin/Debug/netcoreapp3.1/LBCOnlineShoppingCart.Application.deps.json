@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "LBCOnlineShoppingCart.Application/1.0.0": {
+        "dependencies": {
+          "LBCOnlineShoppingCart.Domain": "1.0.0"
+        },
+        "runtime": {
+          "LBCOnlineShoppingCart.Application.dll": {}
+        }
+      },
+      "LBCOnlineShoppingCart.Domain/1.0.0": {
+        "runtime": {
+          "LBCOnlineShoppingCart.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LBCOnlineShoppingCart.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LBCOnlineShoppingCart.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

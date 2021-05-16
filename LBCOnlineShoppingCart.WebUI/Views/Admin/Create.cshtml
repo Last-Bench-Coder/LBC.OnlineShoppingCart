@@ -1,0 +1,147 @@
+﻿@model LBCOnlineShoppingCart.WebUI.Models.AdminModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-heading">
+    <div class="page-title">
+        <div class="row">
+            <div class="col-12 col-md-6 order-md-1 order-last">
+                <h3>@ViewBag.PageHeading</h3>
+                <p class="text-subtitle text-muted">@ViewBag.PageSmallDesc</p>
+            </div>
+            <div class="col-12 col-md-6 order-md-2 order-first">
+                <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a asp-controller="home" asp-action="index">Dashboard</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            @ViewBag.PageHeading
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (!string.IsNullOrEmpty(ViewBag.SuccessErrorMessage) && !string.IsNullOrEmpty(ViewBag.Error))
+{
+    if (ViewBag.Error == "No")
+    {
+        <div class="alert alert-success alert-dismissible show fade">
+            @ViewBag.SuccessErrorMessage
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-danger alert-dismissible show fade">
+            @ViewBag.SuccessErrorMessage
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+}
+
+<section id="multiple-column-form">
+    <div class="row match-height">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-body">
+                        <form class="form" asp-action="create">
+                            <div class="row">
+                                <div class="col-md-4 col-12">
+                                    <div class="form-group">
+                                        <label asp-for="AdminCode" class="control-label"></label>
+                                        <input asp-for="AdminCode" class="form-control" readonly/>
+                                        <span asp-validation-for="AdminCode" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <div class="form-group">
+                                        <label class="control-label">Select Store</label>
+                                        <select asp-for="StoreId" class="form-control">
+                                            <option value="">Select...</option>
+                                            @foreach (var item in (List<LBCOnlineShoppingCart.Domain.Models.Store>)ViewBag.Store)
+                                            {
+                                                <option value="@item.StoreId">@item.StoreName</option>
+                                            }
+                                        </select>
+                                        <span asp-validation-for="StoreId" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <div class="form-group">
+                                        <label class="control-label">Select Role</label>
+                                        <select asp-for="Role" class="form-control">
+                                            <option value="">Select...</option>
+                                            @foreach (var item in (List<LBCOnlineShoppingCart.Domain.Models.Role>)ViewBag.Role)
+                                            {
+                                                <option value="@item.Title">@item.Title</option>
+                                            }
+                                        </select>
+                                        <span asp-validation-for="Role" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <div class="form-group">
+                                        <label asp-for="FullName" class="control-label"></label>
+                                        <input asp-for="FullName" class="form-control" />
+                                        <span asp-validation-for="FullName" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <div class="form-group">
+                                        <label asp-for="EmailId" class="control-label"></label>
+                                        <input type="email" asp-for="EmailId" class="form-control" />
+                                        <span asp-validation-for="EmailId" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <div class="form-group">
+                                        <label asp-for="Phone" class="control-label"></label>
+                                        <input type="number" asp-for="Phone" class="form-control" />
+                                        <span asp-validation-for="EmailId" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-12">
+                                    <div class="form-group">
+                                        <label asp-for="About" class="control-label"></label>
+                                        <textarea asp-for="About" class="form-control"></textarea>
+                                        <span asp-validation-for="About" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="form-group">
+                                        <label asp-for="Status" class="control-label"></label>
+                                        <select asp-for="Status" class="form-control">
+                                            <option value="">Select...</option>
+                                            @foreach (var item in (List<LBCOnlineShoppingCart.Domain.Models.Status>)ViewBag.Status)
+                                            {
+                                                <option value="@item.Title">@item.Title</option>
+                                            }
+                                        </select>
+                                        <span asp-validation-for="Status" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 d-flex justify-content-end">
+                                    <button type="submit"
+                                            class="btn btn-primary me-1 mb-1">
+                                        Submit
+                                    </button>
+                                    <a asp-action="index"
+                                       class="btn btn-light-secondary me-1 mb-1">
+                                        Go Back
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,15 @@
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.Data\bin\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.Data.deps.json
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.Data\bin\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.Data.runtimeconfig.json
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.Data\bin\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.Data.runtimeconfig.dev.json
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.Data\bin\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.Data.dll
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.Data\bin\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.Data.pdb
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.Data\bin\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Domain.dll
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.Data\bin\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Domain.pdb
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.Data\obj\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.Data.csprojAssemblyReference.cache
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.Data\obj\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.Data.AssemblyInfoInputs.cache
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.Data\obj\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.Data.AssemblyInfo.cs
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.Data\obj\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.Data.csproj.CoreCompileInputs.cache
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.Data\obj\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.Data.csproj.CopyComplete
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.Data\obj\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.Data.dll
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.Data\obj\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.Data.pdb
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.Data\obj\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.Data.genruntimeconfig.cache

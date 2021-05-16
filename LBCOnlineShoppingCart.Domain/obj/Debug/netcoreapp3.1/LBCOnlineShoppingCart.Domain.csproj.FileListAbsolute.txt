@@ -1,0 +1,9 @@
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Domain\bin\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Domain.deps.json
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Domain\bin\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Domain.dll
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Domain\bin\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Domain.pdb
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Domain\obj\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Domain.AssemblyInfoInputs.cache
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Domain\obj\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Domain.AssemblyInfo.cs
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Domain\obj\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Domain.csproj.CoreCompileInputs.cache
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Domain\obj\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Domain.dll
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Domain\obj\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Domain.pdb
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Domain\obj\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Domain.csprojAssemblyReference.cache

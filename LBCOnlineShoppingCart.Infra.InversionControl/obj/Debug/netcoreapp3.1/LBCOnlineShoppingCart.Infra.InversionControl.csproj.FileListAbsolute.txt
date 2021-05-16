@@ -1,0 +1,16 @@
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.InversionControl\obj\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.InversionControl.csprojAssemblyReference.cache
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.InversionControl\obj\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.InversionControl.AssemblyInfoInputs.cache
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.InversionControl\obj\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.InversionControl.AssemblyInfo.cs
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.InversionControl\obj\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.InversionControl.csproj.CoreCompileInputs.cache
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.InversionControl\bin\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.InversionControl.deps.json
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.InversionControl\bin\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.InversionControl.dll
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.InversionControl\bin\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.InversionControl.pdb
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.InversionControl\bin\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Application.dll
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.InversionControl\bin\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Domain.dll
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.InversionControl\bin\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.Data.dll
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.InversionControl\bin\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Application.pdb
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.InversionControl\bin\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.Data.pdb
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.InversionControl\bin\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Domain.pdb
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.InversionControl\obj\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.InversionControl.csproj.CopyComplete
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.InversionControl\obj\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.InversionControl.dll
+D:\Source Code\LBCOnlineShoppingCart\LBCOnlineShoppingCart.Infra.InversionControl\obj\Debug\netcoreapp3.1\LBCOnlineShoppingCart.Infra.InversionControl.pdb
